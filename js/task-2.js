@@ -1,10 +1,10 @@
 function calcAverageCalories(days){
-  let totalCaloriesrPerWeek = 0;
+  let totalCalories = 0;
   for( const i of days){
     
-    totalCaloriesrPerWeek += i.calories;
+    totalCalories += i.calories;
   }
-  return totalCaloriesrPerWeek/7
+  return totalCalories/ days.length
   
 }
 
